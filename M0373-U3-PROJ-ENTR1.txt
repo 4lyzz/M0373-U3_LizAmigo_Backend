@@ -1,16 +1,18 @@
 Nuevas implementaciones:
-1. Nombre de usuario y contraseña del jugador
-2. Guardar puntuación acumulada
-3. Ranking respecto a otros usuarios
-4. Top 10 mejores puntuaciones
-5. Mostrar el ranking en la pantalla
-6. Número de partidas jugadas por el usuario
-7. Guardar datos en json
 
-Recursos: 
-1. https://www.classcentral.com/course/youtube-learn-express-js-in-35-minutes-120702?utm
-2. https://www.classcentral.com/course/youtube-express-js-tutorials-513078?utm_source
-3. https://www.tutorials.vyeron.com/node-js-tutorial-express-js-tutorial-16-rendering-json-and-html-data-master-node-js-express-js-2024/?utm_source
-4. https://www.youtube.com/watch?v=Oe421EPjeBE
-5. https://www.youtube.com/watch?v=pKd0Rpw7O48
-6. https://www.youtube.com/watch?v=TlB_eWDSMt4
+FASE 1:
+· Guardar puntuación acumulada
+· Implementación en servidor web
+· Top 10 mejores puntuaciones personales
+· Mostrar el ranking actual en la pantalla
+· Número de partidas jugadas por el usuario
+· Guardar datos en json
+
+FASE 2:
+· Implementación de versión multijugador
+· 2 jugadores (verde, marrón)
+· Delimitar espacios para cada jugador
+· Si ej. player1 se come una manzana este crece +1 segmento pero player2 no crece, por tanto player1 tiene ventaja sobre él para poder matarlo.
+· Si cualquiera de los jugadores se come una manzana la velocidad aumenta para ambos
+· PlayerVsPlayer hacer que los jugadores no solo puedan morir mediante chocarse con las paredes sino que el cuerpo de el otro jugador también le mate
+· El juego termina cuando uno de los jugadores muere sea asesinado por otro jugador o chocándose solo contra una pared
