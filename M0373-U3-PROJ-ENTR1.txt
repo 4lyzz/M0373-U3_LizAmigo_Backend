@@ -11,3 +11,6 @@ Recursos:
 1. https://www.classcentral.com/course/youtube-learn-express-js-in-35-minutes-120702?utm
 2. https://www.classcentral.com/course/youtube-express-js-tutorials-513078?utm_source
 3. https://www.tutorials.vyeron.com/node-js-tutorial-express-js-tutorial-16-rendering-json-and-html-data-master-node-js-express-js-2024/?utm_source
+4. https://www.youtube.com/watch?v=Oe421EPjeBE
+5. https://www.youtube.com/watch?v=pKd0Rpw7O48
+6. https://www.youtube.com/watch?v=TlB_eWDSMt4
