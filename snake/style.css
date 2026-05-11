@@ -1,0 +1,94 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-image: url("Snake fondo.png");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.screen {
+    width: 100%;
+    height: 100vh;
+    display: flex; /* para centr    ar el cuadro de consola en pantalla */
+    justify-content: center; /*para centrar el contenido*/
+    align-items: center; /*para alinear los items al centro*/
+}
+
+.game {
+    background-color: rgb(179, 221, 179); /* color del fondo */
+    z-index: 1; /* sirve para mostrar el tablero del juego por encima de los marcadores de puntuación y el botón de empezar juego*/
+}
+
+.board {
+    box-sizing: content-box;
+    background-color: rgb(222, 255, 173); /*fondo del tablero*/
+    color: rgba(10, 65, 10, 0.3);
+    padding: 0.5rem; 
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 12rem;
+    height: 18rem;
+    border-radius: 15px;
+}
+
+.actions {
+    background: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+#grid td { /* valores de tamaño de la grid de movimiento de las celdas individuales de la grid */
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+#grid td.odd { /*valores de las partes impares del tablero*/
+    background-color: rgb(36, 88, 36);
+}
+
+#grid td.even { /*valores de las partes pares del tablero*/
+    background-color: rgb(64, 181, 64);
+}
+#grid td.segment { /* estilos de la serpiente exceptuando la cabeza */
+    background-color: greenyellow; /*color serpiente*/
+    border-radius: 0.75rem; /*redondea las esquinas de la serpìente en la grid */
+}
+#grid td.head { /* estilos de la cabeza de la serpiente */
+    background-color: green;
+}
+
+#grid td.apple { /*valores de la manzana*/
+    background-color: red;
+    border-radius: 0.75rem;
+}
+
+#top10 {
+    background: rgb(99, 168, 94);
+    color: aliceblue;
+    padding: 0.8rem;
+    border-radius: 10px;
+    font-family: monospace;
+    width: 10rem;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+#start {
+    background-color: rgb(99, 168, 94);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: monospace;
+    transition: 0.2s;
+}
+
+#start:hover {
+    background-color: limegreen;
+    transform: scale(1.05);
+}

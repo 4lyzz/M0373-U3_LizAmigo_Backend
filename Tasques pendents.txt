@@ -1,12 +1,19 @@
 Nuevas implementaciones:
 
 FASE 1:
-· Guardar puntuación acumulada
-· Implementación en servidor web
-· Top 10 mejores puntuaciones personales
-· Mostrar el ranking actual en la pantalla
-· Número de partidas jugadas por el usuario
-· Guardar datos en json
+· Implementación en servidor web❓
+· Implementación de log-in de usuario y contraseña❓
+· Guardar puntuación acumulada ✅ -> getScore.php
+· Top 10 mejores puntuaciones personales✅ -> getTop10.php
+· Mostrar el ranking actual en la pantalla✅ -> getScore.php
+· Número de partidas jugadas por el usuario✅ ->getNumPartidas.php
+· Guardar datos en MySQL ✅ BDD snake con tablas (partidasJugadas, puntuación)
+	· Partidas jugadas suma + 1 cada vez que se inicia una nueva partida.
+	· Puntuación se actualiza cada vez que el jugador consigue un punto.
+	· TOP10 hereda de puntuación para actualizar el conteo del top.
+
+
+
 
 FASE 2:
 · Implementación de versión multijugador
